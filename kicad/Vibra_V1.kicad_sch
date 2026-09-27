@@ -1691,7 +1691,7 @@
 		)
 		(uuid "7f9afe91-59d4-4c5e-997e-9a00a73b0b0b")
 	)
-	(text "Souder les 0805 avant les supports.\nEnficher les modules hors tension.\nVoir GUIDE_MONTAGE.md et la BOM."
+	(text "Souder les 0805 avant les supports.\nEnficher les modules hors tension.\nVoir README.md et rendu/composants.csv."
 		(exclude_from_sim no)
 		(at 13.97 188 0)
 		(effects
