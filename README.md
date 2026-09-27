@@ -165,7 +165,7 @@ Les modèles génériques des barrettes proviennent des bibliothèques KiCad ins
 - Registre WHO_AM_I 0x33 : https://raw.githubusercontent.com/adafruit/Adafruit_LIS3DH/master/Adafruit_LIS3DH.cpp
 
 - Géométrie exacte du breakout ancien : `Adafruit LIS3DH Breakout Original.brd`, dépôt officiel Adafruit ci-dessus. Contour 20,32 × 20,32 mm, trous 2,5 mm à (2,54 ; 17,78) et (17,78 ; 17,78). Source disponible dans le dépôt officiel Adafruit lié ci-dessus.
-- Modèle 3D bleu : adaptation simplifiée créée pour cette révision à partir du PCB Adafruit. Contour, perçages et centres des composants issus du fichier Eagle ; volumes des composants approximatifs. Ce n'est pas un modèle STEP officiel Adafruit. Attribution ci-dessous ; licence jointe dans `kicad/licenses/`.
+- Modèle 3D bleu : adaptation simplifiée créée pour cette révision à partir du PCB Adafruit. Contour, perçages et centres des composants issus du fichier Eagle ; volumes des composants approximatifs. Ce n'est pas un modèle STEP officiel Adafruit. Attribution et lien vers la licence ci-dessous.
 
 
 ## Vérification Rev E-HS — 27 septembre 2026
@@ -181,10 +181,10 @@ Les contrôles de prix, de stock et de révision de la pièce effectivement ache
 PCB original conçu par Limor Fried/Ladyada pour Adafruit Industries :
 https://github.com/adafruit/Adafruit-LIS3DH-Breakout-PCB
 
-Le modèle `Adafruit_LIS3DH_2809_Original.step` est une adaptation réalisée pour Vibra Rev D le 25 septembre 2026. Il reprend le contour, les perçages et les positions de composants du PCB original ; les volumes des composants et couleurs sont simplifiés. Il n'inclut pas la sérigraphie officielle. Il est distribué sous la même licence Creative Commons Attribution-ShareAlike 3.0, jointe ici. Adafruit n'a pas validé cette adaptation.
+Le modèle `Adafruit_LIS3DH_2809_Original.step` est une adaptation réalisée pour Vibra Rev D le 25 septembre 2026. Il reprend le contour, les perçages et les positions de composants du PCB original ; les volumes des composants et couleurs sont simplifiés. Il n'inclut pas la sérigraphie officielle. Il est distribué sous la même licence Creative Commons Attribution-ShareAlike 3.0, accessible ci-dessous. Adafruit n'a pas validé cette adaptation.
 
 Le fichier Eagle original et ses révisions sont disponibles dans le dépôt officiel Adafruit lié ci-dessus. Les autres modèles conservent leurs provenances Seeed et KiCad détaillées ici.
 
-[Licence CC BY-SA 3.0 du modèle Adafruit](kicad/licenses/Adafruit_CC_BY_SA_3.0.txt). Les éléments tiers conservent leurs licences respectives. Aucune licence globale supplémentaire n'est accordée par ce dépôt.
+[Licence CC BY-SA 3.0 du modèle Adafruit](https://creativecommons.org/licenses/by-sa/3.0/legalcode). Les éléments tiers conservent leurs licences respectives. Aucune licence globale supplémentaire n'est accordée par ce dépôt.
 
 </details>
