@@ -12,6 +12,7 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 __pycache__/
+.history/
 *.py[cod]
 .venv/
 .env
