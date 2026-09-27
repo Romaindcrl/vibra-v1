@@ -14,7 +14,7 @@ Détecteur de vibrations **XIAO ESP32S3 + LIS3DH**. Carte de **48 × 38 mm**, 2 
 | Préparer les composants | [Liste des composants](rendu/composants.csv) |
 | Faire fabriquer le PCB | [Gerbers et perçages](rendu/fabrication.zip) |
 
-Télécharger **Code → Download ZIP**, extraire le dossier, puis ouvrir le projet. Garder le dossier `kicad/` entier : il contient les symboles, empreintes et modèles 3D nécessaires. Toutes les instructions de montage sont ci-dessous.
+Télécharger **Code → Download ZIP**, extraire le dossier, puis ouvrir le projet. Garder le dossier `kicad/` entier : les empreintes sont intégrées au PCB, et les symboles et modèles 3D sont fournis. Toutes les instructions de montage sont ci-dessous.
 
 **Avant fabrication : confirmer que le LIS3DH acheté est l'ancien Adafruit 2809 à une seule rangée de 8 broches. La version STEMMA QT est incompatible.** L'essai mécanique à blanc et la validation du premier prototype restent à faire. Aucun firmware de détection validé n'est fourni.
 
@@ -85,7 +85,7 @@ CAL ne remplace pas BOOT. Le GPIO3 a aussi une fonction de sélection JTAG au d�
 
 ### Fichiers de fabrication
 
-Ouvrir [`kicad/Vibra_V1.kicad_pro`](kicad/Vibra_V1.kicad_pro) dans KiCad 10.0.6 ou ultérieur, avec les bibliothèques locales du dossier. Fabrication : FR-4 **1,6 mm**, **2 couches**, cuivre nominal **35 µm**, masque sur les deux faces. Les Gerbers et perçages sont réunis dans **[fabrication.zip](rendu/fabrication.zip)** ; ne pas mélanger les révisions.
+Ouvrir [`kicad/Vibra_V1.kicad_pro`](kicad/Vibra_V1.kicad_pro) dans KiCad 10.0.6 ou ultérieur. Fabrication : FR-4 **1,6 mm**, **2 couches**, cuivre nominal **35 µm**, masque sur les deux faces. Les Gerbers et perçages sont réunis dans **[fabrication.zip](rendu/fabrication.zip)** ; ne pas mélanger les révisions.
 
 Il s'agit d'un PCB à faire fabriquer puis à assembler à domicile. Les vias et trous métallisés requis ne sont pas adaptés à une simple gravure maison sans métallisation.
 
@@ -137,7 +137,9 @@ J2 : 1 GND, 2 TX, 3 RX. Relier TX de l'adaptateur au RX de Vibra et inversement.
 <details>
 <summary><strong>Contrôles KiCad et modification du projet</strong></summary>
 
-ERC et DRC dans KiCad 10.0.6 : **0 erreur, 0 avertissement, 0 liaison non routée et 0 écart schéma/PCB**. La revue de Rev E a aussi confirmé **71/71 associations broche–réseau**. Les fichiers détaillés de la revue restent accessibles dans l'historique Git ; le dossier de rendu ne contient que les fichiers utiles à la réalisation.
+Contrôles dans KiCad 10.0.6 : **DRC : 0 erreur, 0 avertissement, 0 liaison non routée et 0 écart schéma/PCB. ERC : 0 erreur et 34 avertissements de liaison aux empreintes.** Ces avertissements viennent de la suppression de la bibliothèque d'empreintes séparée ; le contrôle reste actif. La revue de Rev E a aussi confirmé **71/71 associations broche–réseau**. Les fichiers détaillés de la revue restent accessibles dans l'historique Git ; le dossier de rendu ne contient que les fichiers utiles à la réalisation.
+
+Les 34 empreintes complètes, dont les grandes pastilles de soudure manuelle, restent intégrées au fichier `.kicad_pcb`. Pour réutiliser une empreinte personnalisée sur un nouveau composant, l'exporter depuis le PCB vers une bibliothèque personnelle, puis l'assigner dans le schéma. La bibliothèque d'origine reste récupérable dans l'historique Git.
 
 Cinq contrôles DRC hérités restent désactivés : centrage piste/via, géométrie des profils de tuning, filtres d'empreintes, PTH dans courtyard, NPTH dans courtyard. Quatre ERC restent désactivés : filtres d'empreintes, jonctions à quatre branches, modèle SPICE, label global unique. Aucune exclusion individuelle DRC. Les contrôles électriques, d'isolation, thermiques, de perçage, de routage et de parité sont actifs.
 

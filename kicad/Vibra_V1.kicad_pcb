@@ -96,7 +96,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+	(footprint "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "081c0a77-3455-4faa-9d24-b395b0c3360f")
 		(at 138 84.5)
@@ -322,7 +322,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+	(footprint "TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "0905e2c9-22e3-4de7-926b-3bfb26c2a38a")
 		(at 112 76)
@@ -430,7 +430,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0968f928-85e3-440c-8391-9946e85ecf35")
 		(at 123 80.5 90)
@@ -636,7 +636,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3"
+	(footprint "MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "131d354d-d2f7-45fc-9730-ba95fe65764c")
 		(at 103.5 53.5)
@@ -744,7 +744,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:XIAO_ESP32S3_Sockets"
+	(footprint "XIAO_ESP32S3_Sockets"
 		(layer "F.Cu")
 		(uuid "132b128f-f44c-4bd9-85ee-6d708f583849")
 		(at 116.5 61 90)
@@ -1058,7 +1058,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:MountingHole_2.5mm"
+	(footprint "MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "1848cbbd-6e43-4a10-8242-fe06b109c532")
 		(at 128.76 75.73)
@@ -1178,7 +1178,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+	(footprint "TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "1e7aff3a-33da-4128-b3e1-9cad9314fa08")
 		(at 124.5 77)
@@ -1286,7 +1286,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "22d88f7f-2192-40ce-9093-32e886ec0543")
 		(at 135 53)
@@ -1493,7 +1493,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:Socket_1x08_2.54mm_H8.5"
+	(footprint "Socket_1x08_2.54mm_H8.5"
 		(layer "F.Cu")
 		(uuid "23f438a9-a9ba-4094-b69b-467e96a3fd71")
 		(at 144 77 180)
@@ -1831,7 +1831,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+	(footprint "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "240c650c-fbbe-426b-a137-ca6849a1c96b")
 		(at 118 84.5)
@@ -2057,7 +2057,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+	(footprint "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2f0c2134-5316-4fcb-95ba-e93a02670032")
 		(at 123 84.5)
@@ -2283,7 +2283,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "30ccc61c-4418-4520-b4fd-94826e157e2b")
 		(at 130 56)
@@ -2489,7 +2489,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3ad9f3c2-9a4e-4bb7-9b1f-cae820dfeac8")
 		(at 115 75.5 90)
@@ -2695,7 +2695,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3"
+	(footprint "MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "4054c36d-6035-4a80-ba03-d2a90296c781")
 		(at 103.5 84.5)
@@ -2803,7 +2803,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "464aa438-6b22-4b23-a2de-350adb7bcec8")
 		(at 135 56)
@@ -3009,7 +3009,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4a9ddfb1-b626-418c-ab86-1dcd4b018942")
 		(at 134 66.5)
@@ -3216,7 +3216,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "53cdce35-1cab-4d3f-9b2d-aedcb18a41c2")
 		(at 118 80.5 90)
@@ -3422,7 +3422,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "57fb6c05-3014-4d2e-ba27-e8584bc0dcd3")
 		(at 134 70)
@@ -3629,7 +3629,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:UART_1x03_2.54mm_Drill1.10"
+	(footprint "UART_1x03_2.54mm_Drill1.10"
 		(layer "F.Cu")
 		(uuid "58f69421-6d8a-4d2d-8fa8-87f5e9df1b84")
 		(at 103.5 74 90)
@@ -3897,7 +3897,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "64372826-28d4-440e-9cef-f80bbedd63a3")
 		(at 138 80.5 90)
@@ -4103,7 +4103,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+	(footprint "TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "8667d0df-4368-464d-85b2-be773abb1771")
 		(at 124.5 73.5)
@@ -4211,7 +4211,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:PTS526SK15SMTR2LFS"
+	(footprint "PTS526SK15SMTR2LFS"
 		(layer "F.Cu")
 		(uuid "8eb64fa7-5f03-41b1-9797-121f8ff7e7df")
 		(at 111.5 82.5)
@@ -4362,7 +4362,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+	(footprint "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9ce92b4f-93e0-44e1-8ecf-b8f6e4bcff1c")
 		(at 128 84.5)
@@ -4588,7 +4588,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a1a0f52a-fc7d-4e57-912a-0d2f548add66")
 		(at 130 53)
@@ -4795,7 +4795,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:MountingHole_2.5mm"
+	(footprint "MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "a4c367e9-0144-4491-a8aa-be60dd96a9fd")
 		(at 128.76 60.49)
@@ -4915,7 +4915,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+	(footprint "TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "a824172c-f846-4eb8-82b6-08ebed4c8838")
 		(at 137 74)
@@ -5023,7 +5023,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a82edb3f-8e8a-4cc7-b7ed-84bf8879ec50")
 		(at 133 80.5 90)
@@ -5229,7 +5229,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3"
+	(footprint "MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "b7e826d8-b1f9-4445-b1dd-7d9e50df33af")
 		(at 144.5 84.5)
@@ -5337,7 +5337,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+	(footprint "TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "c72f3789-a34b-4aec-b692-dea0a3c88fc0")
 		(at 103.5 65)
@@ -5446,7 +5446,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3"
+	(footprint "MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "ca0b3472-2ec1-46ad-b7c3-20a90bb00c40")
 		(at 144.5 53.5)
@@ -5554,7 +5554,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "caaeee6b-f4a6-4d08-894f-642bd0df8765")
 		(at 134 63)
@@ -5761,7 +5761,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+	(footprint "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e09decb4-7923-4ba2-acc7-9112f6df32cb")
 		(at 133 84.5)
@@ -5987,7 +5987,7 @@
 			)
 		)
 	)
-	(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+	(footprint "TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "f505c005-98c8-4d7a-965a-3373a107c804")
 		(at 140 55.5)
@@ -6095,7 +6095,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+	(footprint "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fe65412c-9999-44d1-aae8-e04697065d97")
 		(at 128 80.5 90)

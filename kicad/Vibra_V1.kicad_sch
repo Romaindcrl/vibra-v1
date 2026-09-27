@@ -1169,7 +1169,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Vibra_Reviewed:XIAO_ESP32S3_Sockets"
+			(property "Footprint" "XIAO_ESP32S3_Sockets"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3178,7 +3178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:XIAO_ESP32S3_Sockets"
+		(property "Footprint" "XIAO_ESP32S3_Sockets"
 			(at 113.03 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3304,7 +3304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:Socket_1x08_2.54mm_H8.5"
+		(property "Footprint" "Socket_1x08_2.54mm_H8.5"
 			(at 220.98 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3412,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 156.21 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3502,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole_2.5mm"
 			(at 139.7 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -3586,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint_Pad_D1.5mm"
 			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3673,7 +3673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:UART_1x03_2.54mm_Drill1.10"
+		(property "Footprint" "UART_1x03_2.54mm_Drill1.10"
 			(at 104.14 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3766,7 +3766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 208.28 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3856,7 +3856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole_3.2mm_M3"
 			(at 78.74 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3940,7 +3940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 269.24 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4030,7 +4030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 251.46 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4120,7 +4120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole_3.2mm_M3"
 			(at 50.8 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -4204,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 156.21 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4294,7 +4294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 269.24 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole_3.2mm_M3"
 			(at 22.86 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -4468,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:PTS526SK15SMTR2LFS"
+		(property "Footprint" "PTS526SK15SMTR2LFS"
 			(at 38.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4564,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint_Pad_D1.5mm"
 			(at 154.94 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4651,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 201.93 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4741,7 +4741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint_Pad_D1.5mm"
 			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4828,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +4918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint_Pad_D1.5mm"
 			(at 25.4 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5005,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.79 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5095,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint_Pad_D1.5mm"
 			(at 198.12 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5182,7 +5182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole_2.5mm"
 			(at 139.7 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 38.1 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5356,7 +5356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 245.11 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5446,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 269.24 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5536,7 +5536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 245.11 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5700,7 +5700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint_Pad_D1.5mm"
 			(at 241.3 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5787,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 171.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5877,7 +5877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5967,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +6057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 208.28 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6147,7 +6147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole_3.2mm_M3"
 			(at 106.68 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6231,7 +6231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 97.79 124.46 0)
 			(hide yes)
 			(show_name no)

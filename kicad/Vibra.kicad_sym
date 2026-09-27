@@ -663,7 +663,7 @@
       (effects
         (font
           (size 1 1))))
-    (property "Footprint" "Vibra_Reviewed:XIAO_ESP32S3_Sockets"
+    (property "Footprint" "XIAO_ESP32S3_Sockets"
       (at 0 0 0)
       (effects hide
         (font
