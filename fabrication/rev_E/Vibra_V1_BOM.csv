@@ -1,0 +1,39 @@
+Reference,Qty,Value,Footprint,MPN,Description,Assembly
+U1,1,XIAO ESP32S3,Vibra_Reviewed:XIAO_ESP32S3_Sockets,113991114,Seeed XIAO ESP32S3 sur 2 embases 1x7; USB-C du XIAO; 3V3 sortie,User supplied module on sockets
+J3,1,LIS3DH_2809_ORIGINAL_SOCKET,Vibra_Reviewed:Socket_1x08_2.54mm_H8.5,61300811821,8.5 mm high female socket for Adafruit 2809 ORIGINAL 1x8 only; not STEMMA QT,Populate
+R4,1,10k,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-0710KL,CAL pull-up,Populate
+R7,1,4.7k,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-074K7L,I2C SDA pull-up,Populate
+R8,1,4.7k,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-074K7L,I2C SCL pull-up,Populate
+R9,1,680,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-07680RL,LED1 current limit,Populate
+D1,1,LTST-C170KRKT,Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,LTST-C170KRKT,Red vibration level LED 1,Populate
+R10,1,680,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-07680RL,LED2 current limit,Populate
+D2,1,LTST-C170KRKT,Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,LTST-C170KRKT,Red vibration level LED 2,Populate
+R11,1,680,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-07680RL,LED3 current limit,Populate
+D3,1,LTST-C170KRKT,Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,LTST-C170KRKT,Red vibration level LED 3,Populate
+R12,1,680,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-07680RL,LED4 current limit,Populate
+D4,1,LTST-C170KRKT,Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,LTST-C170KRKT,Red vibration level LED 4,Populate
+R13,1,680,Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,RC0805FR-07680RL,LED5 current limit,Populate
+D5,1,LTST-C170KRKT,Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,LTST-C170KRKT,Red vibration level LED 5,Populate
+C5,1,10uF,Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GRM21BR61C106KE15L,ESP32 local bulk,Populate
+C6,1,100nF,Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GRM21BR71C104KA01L,ESP32 bypass,Populate
+C8,1,100nF,Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GRM21BR71C104KA01L,LIS3DH breakout connector bypass,Populate
+C9,1,10uF,Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GRM21BR61C106KE15L,LIS3DH breakout local bulk,Populate
+C10,1,100nF,Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,GRM21BR71C104KA01L,LIS3DH breakout auxiliary bypass,Populate
+SW2,1,CAL,Vibra_Reviewed:PTS526SK15SMTR2LFS,PTS526 SK15 SMTR2 LFS,PTS526 SK15: pads extended to 1.2 x 0.8 mm for hand soldering; same pin numbering as professor part,Populate
+J2,1,UART,Vibra_Reviewed:UART_1x03_2.54mm_Drill1.10,61300311121,"3-pin UART header, no power pin",Populate
+TP3,1,+3V3,Vibra_Reviewed:TestPoint_Pad_D1.5mm,N/A,Exposed copper test point: +3V3,PCB feature
+TP4,1,GND,Vibra_Reviewed:TestPoint_Pad_D1.5mm,N/A,Exposed copper test point: GND,PCB feature
+TP6,1,CAL,Vibra_Reviewed:TestPoint_Pad_D1.5mm,N/A,Exposed copper test point: CAL,PCB feature
+TP7,1,I2C_SDA,Vibra_Reviewed:TestPoint_Pad_D1.5mm,N/A,Exposed copper test point: I2C_SDA,PCB feature
+TP8,1,I2C_SCL,Vibra_Reviewed:TestPoint_Pad_D1.5mm,N/A,Exposed copper test point: I2C_SCL,PCB feature
+TP9,1,ACC_INT1,Vibra_Reviewed:TestPoint_Pad_D1.5mm,N/A,Exposed copper test point: ACC_INT1,PCB feature
+H1,1,M3 NPTH,Vibra_Reviewed:MountingHole_3.2mm_M3,N/A,3.2 mm non-plated mounting hole,PCB feature
+H2,1,M3 NPTH,Vibra_Reviewed:MountingHole_3.2mm_M3,N/A,3.2 mm non-plated mounting hole,PCB feature
+H3,1,M3 NPTH,Vibra_Reviewed:MountingHole_3.2mm_M3,N/A,3.2 mm non-plated mounting hole,PCB feature
+H4,1,M3 NPTH,Vibra_Reviewed:MountingHole_3.2mm_M3,N/A,3.2 mm non-plated mounting hole,PCB feature
+U1 sockets,2,Female 1x7 2.54mm H8.5,Included in U1 combined footprint,61300711821,"Solder these two socket strips to Vibra, not the XIAO itself",Populate
+U1 male headers,2,Male 1x7 2.54mm,On XIAO underside,61300711121,Short ends soldered through XIAO; long ends point down into sockets,If not already fitted
+J3 breakout,1,Adafruit LIS3DH 2809 ORIGINAL 1x8,Plug into J3; match pin legend,2809 (original 1x8 revision only),"VIN,3Vo,GND,SCL,SDA,SDO,CS,INT; modern STEMMA QT is incompatible; board 20.32 x 20.32 mm; secure through H5/H6",Hardware revision must be confirmed
+J3 male header,1,Male 1x8 2.54mm,On breakout underside,61300811121,Populate only if missing on the purchased original breakout,If not already fitted
+H5,1,LIS3DH mount 2.5mm,Vibra_Reviewed:MountingHole_2.5mm,N/A,2.5 mm NPTH aligned to original Adafruit breakout mounting hole,PCB feature
+H6,1,LIS3DH mount 2.5mm,Vibra_Reviewed:MountingHole_2.5mm,N/A,2.5 mm NPTH aligned to original Adafruit breakout mounting hole,PCB feature

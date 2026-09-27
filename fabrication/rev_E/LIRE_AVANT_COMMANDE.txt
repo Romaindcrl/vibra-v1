@@ -1,0 +1,6 @@
+VIBRA V1 Rev E-HS : 48 x 38 mm ; FR-4 1,6 mm ; 2 couches ; cuivre 35 um ; masque recto/verso.
+Controles KiCad 10.0.6 ERC/DRC/routage/parite propres. Pas de validation physique ni firmware valide.
+Condition avant commande : breakout Adafruit LIS3DH ORIGINAL 1x8 avec VIN,3Vo,GND,SCL,SDA,SDO,CS,INT, carte 20,32 x 20,32 mm. STEMMA QT incompatible.
+Verifier les barrettes, fixations M2 du capteur, hauteur d'environ 11,04 mm et acces USB avec les pieces reelles.
+Lire docs/GUIDE_MONTAGE.md et docs/REVUE_E-HS.md du dossier complet. Les autres revisions ne sont pas interchangeables.
+Alimentation USB du XIAO : porteuse en 3V3. GND/3V3 et thermiques GND 0,6 mm. Pas de piste 5V sur Vibra.

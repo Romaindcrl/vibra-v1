@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "Vibra_Reviewed") (type "KiCad") (uri "${KIPRJMOD}/Vibra_Reviewed.pretty") (options "") (descr "Reviewed original project footprints, portable local snapshot")))

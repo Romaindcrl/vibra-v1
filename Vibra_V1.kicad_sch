@@ -1,0 +1,6299 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3be29066-761c-5643-ab36-a2e4a9b92d0c")
+	(paper "A4")
+	(title_block
+		(title "VIBRA V1 - Detecteur de vibrations")
+		(date "2026-09-27")
+		(rev "E-HS")
+		(company "Prototype pedagogique")
+		(comment 1 "Alim. USB-C XIAO ; porteuse 3V3")
+		(comment 2 "48 x 38 mm / 2 couches / FR4 1.6 mm")
+	)
+	(lib_symbols
+		(symbol "Vibra:C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.286) (xy -1.27 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_0_1"
+				(rectangle
+					(start -3.81 -6.35)
+					(end 3.81 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 0 0)
+					(length 5.08)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -3.81 0)
+					(length 5.08)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:LED"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 6.35)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:LIS3DH_BREAKOUT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 -18.415 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LIS3DH_BREAKOUT"
+				(at 0 18.415 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LIS3DH_BREAKOUT_0_1"
+				(rectangle
+					(start -12.7 -15.875)
+					(end 12.7 15.875)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LIS3DH_BREAKOUT_1_1"
+				(pin power_in line
+					(at -17.78 13.97 0)
+					(length 5.08)
+					(name "VIN_3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "3Vo_NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "SDO_ADDR_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -8.89 0)
+					(length 5.08)
+					(name "CS_I2C_HIGH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(rectangle
+					(start -2.794 -2.032)
+					(end 2.794 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:R"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -3.175 -1.905)
+					(end 3.175 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:SW_Push"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 0.8)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.5) (xy 1.2 0.9)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1"
+				(pin passive line
+					(at -8.89 2.54 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 0)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:TestPoint"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Vibra V1 project symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(rectangle
+					(start -2.794 -2.032)
+					(end 2.794 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Vibra:XIAO_ESP32S3_Carrier"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "XIAO ESP32S3"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "Vibra_Reviewed:XIAO_ESP32S3_Sockets"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XIAO_ESP32S3_Carrier_0_1"
+				(rectangle
+					(start -11.43 10.16)
+					(end 11.43 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "XIAO_ESP32S3_Carrier_1_1"
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 3.81)
+					(name "D0/GPIO1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 3.81)
+					(name "D1/GPIO2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 3.81)
+					(name "D2/GPIO3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 3.81)
+					(name "D3/GPIO4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 3.81)
+					(name "D4/GPIO5"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 3.81)
+					(name "D5/GPIO6"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 3.81)
+					(name "D6/GPIO43"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 3.81)
+					(name "D7/GPIO44"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 3.81)
+					(name "D8/GPIO7"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 3.81)
+					(name "D9/GPIO8"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 3.81)
+					(name "D10/GPIO9"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 15.24 2.54 180)
+					(length 3.81)
+					(name "3V3_OUT"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 5.08 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 7.62 180)
+					(length 3.81)
+					(name "VBUS_5V"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "ALIMENTATION"
+		(exclude_from_sim no)
+		(at 13.97 13.97 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "02bd8fe7-70ad-4912-9953-fc90b082002b")
+	)
+	(text "UART 3V3 / SANS VCC"
+		(exclude_from_sim no)
+		(at 85.09 64.77 0)
+		(effects
+			(font
+				(size 1.35 1.35)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0469093b-9512-453c-955d-f838c3d32593")
+	)
+	(text "XIAO ESP32S3"
+		(exclude_from_sim no)
+		(at 88.9 13.97 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "04caca73-507b-4ffa-a456-8b54e1dcd04b")
+	)
+	(text "Adafruit 2809 ORIGINAL 1x8 uniquement.\nVIN / 3Vo / GND / SCL / SDA / SDO / CS / INT\nSTEMMA QT incompatible. I2C : 0x18. INT : GPIO9."
+		(exclude_from_sim no)
+		(at 180.34 94 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1133b4e2-13e9-497a-b78d-dfc2f7a1019a")
+	)
+	(text "Appui = niveau bas.\nAnti-rebond logiciel."
+		(exclude_from_sim no)
+		(at 13.97 112 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left)
+		)
+		(uuid "3dba8caf-b0b2-42e2-8de3-ebda1c511db9")
+	)
+	(text "PCB : pistes GND / 3V3 >= 0.6 mm.\nPlans GND, thermiques 0.6 mm.\n5V reserve a 0.6 mm si utilise plus tard."
+		(exclude_from_sim no)
+		(at 13.97 61 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left)
+		)
+		(uuid "456ba0b1-3755-4366-b3a0-905e0fac7bf8")
+	)
+	(text "LIS3DH SUR MODULE"
+		(exclude_from_sim no)
+		(at 185.42 13.97 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "4db479e0-72d0-4d4c-b5e0-6bf05577cf23")
+	)
+	(text "USB-C 5V -> XIAO -> sortie 3V3.\nLe 5V/VBUS ne circule PAS sur Vibra.\nNe pas injecter une autre alimentation.\nRESET / BOOT : boutons du XIAO.\nAntenne fournie branchee sur son U.FL."
+		(exclude_from_sim no)
+		(at 13.97 23 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left)
+		)
+		(uuid "74036a9f-2119-4aa8-8da0-b127feae1849")
+	)
+	(text "5 LED ROUGES : GPIO HAUT = ALLUMEE"
+		(exclude_from_sim no)
+		(at 80.01 139.7 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7f9afe91-59d4-4c5e-997e-9a00a73b0b0b")
+	)
+	(text "Souder les 0805 avant les supports.\nEnficher les modules hors tension.\nVoir GUIDE_MONTAGE.md et la BOM."
+		(exclude_from_sim no)
+		(at 13.97 188 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left)
+		)
+		(uuid "8adfe5d8-21dd-465c-b712-bfc25ef0ad3e")
+	)
+	(text "FIXATIONS : H1-H4 M3 ; H5-H6 SUPPORT LIS3DH"
+		(exclude_from_sim no)
+		(at 13.97 164 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bc3beae9-1af0-45cb-86a8-2ad4d0805a82")
+	)
+	(text "TX adaptateur -> RX J2.3\nRX adaptateur <- TX J2.2\nMasse commune via J2.1"
+		(exclude_from_sim no)
+		(at 85.09 97 0)
+		(effects
+			(font
+				(size 1.05 1.05)
+			)
+			(justify left)
+		)
+		(uuid "c9711d71-4059-4b1e-bc58-2f373e287ae9")
+	)
+	(text "POINTS DE TEST"
+		(exclude_from_sim no)
+		(at 13.97 144.78 0)
+		(effects
+			(font
+				(size 1.25 1.25)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "de406345-ed2b-4b80-91ce-3e8c8b856681")
+	)
+	(text "CAL"
+		(exclude_from_sim no)
+		(at 13.97 74 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "df746c51-c57e-4b91-ae40-d61d19e8da9e")
+	)
+	(no_connect
+		(at 128.27 38.1)
+		(uuid "24834cb9-c1bf-4fdf-b9c4-be0b90bd4bf8")
+	)
+	(no_connect
+		(at 203.2 34.29)
+		(uuid "b711ca63-18f7-5810-843b-bd669265d489")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "01032228-8d48-5b97-89e7-f7f1f24271ee")
+	)
+	(wire
+		(pts
+			(xy 143.51 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "021232d8-97e9-5566-8a55-06480d3e48ec")
+	)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0ee0406f-ba6a-5b5b-8c55-7ee89ac6e57e")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 130.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b711969-453b-47ed-8191-a083afd3cb65")
+	)
+	(wire
+		(pts
+			(xy 128.27 40.64) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d411f6f-63db-41b0-9b69-4fe491b34228")
+	)
+	(wire
+		(pts
+			(xy 237.49 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "22c1bf31-727c-529b-ae6a-d3bcef76fc2f")
+	)
+	(wire
+		(pts
+			(xy 90.17 109.22) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "23a8b69d-e66e-559e-86ce-e42587cce4a6")
+	)
+	(wire
+		(pts
+			(xy 29.21 104.14) (xy 27.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "246266d9-7f27-5d35-8278-a0f411aaac96")
+	)
+	(wire
+		(pts
+			(xy 97.79 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24670d47-c80c-4a2c-943b-a193efbd50ef")
+	)
+	(wire
+		(pts
+			(xy 255.27 109.22) (xy 255.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282989c9-8716-436a-af2a-b3434254e71e")
+	)
+	(wire
+		(pts
+			(xy 233.68 153.67) (xy 232.41 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2aa72e3b-cd0d-5a90-9329-7b7e49c0e753")
+	)
+	(wire
+		(pts
+			(xy 60.96 153.67) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2c42deca-59da-524f-9693-8da8dbd4c883")
+	)
+	(wire
+		(pts
+			(xy 143.51 124.46) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2e73c588-4887-52e4-8ee1-b1babe38bc29")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 49.53 104.14)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2ea4bb9f-6e4d-53c6-b02e-c0858b88c860")
+	)
+	(wire
+		(pts
+			(xy 203.2 38.1) (xy 201.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "39dd9912-13ad-5d4c-b137-078dbbaff2fd")
+	)
+	(wire
+		(pts
+			(xy 190.5 153.67) (xy 189.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3abc185e-308a-5e69-9ced-d0119d3924d0")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3bfd07d0-6a84-5d76-a154-4839861d4c20")
+	)
+	(wire
+		(pts
+			(xy 162.56 33.02) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3dd2a0a6-35cd-552a-8ee4-3a54696efcc0")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 95.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42998c96-bc67-454b-929c-597add204a2f")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b24a14-e50b-4bd6-ac99-ae1a48f500c2")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "47a99ffa-1054-5cb0-b90e-db0fba5064cd")
+	)
+	(wire
+		(pts
+			(xy 254 124.46) (xy 255.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "48f782d2-5ef2-5773-848c-d7ed7370cb77")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4bb3af15-4f4d-5b39-b500-9c78a3f63732")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "519b9f58-5c47-5453-8926-a32a4b1eb7a5")
+	)
+	(wire
+		(pts
+			(xy 203.2 41.91) (xy 201.93 41.91)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "55476a08-b20f-5962-8014-35cc3dfb5dfc")
+	)
+	(wire
+		(pts
+			(xy 147.32 153.67) (xy 146.05 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "58ccf332-6a3a-52b7-aa47-89bffcb66fbd")
+	)
+	(wire
+		(pts
+			(xy 260.35 83.82) (xy 261.62 83.82)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5f007e7b-27ef-503d-848a-7ff1348a30ab")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6021f4a0-6a7a-5081-9999-e7941e5a47c6")
+	)
+	(wire
+		(pts
+			(xy 262.89 48.26) (xy 261.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "619e41ad-5579-57fe-87c8-86582254a935")
+	)
+	(wire
+		(pts
+			(xy 149.86 53.34) (xy 148.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7122d202-60ef-50cf-9dd1-d6098b8a66ca")
+	)
+	(wire
+		(pts
+			(xy 275.59 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7b3cb079-1fcb-53e3-8f3c-c79d46f3e099")
+	)
+	(wire
+		(pts
+			(xy 104.14 153.67) (xy 102.87 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7b610861-19cd-54f0-9563-d7d94a4ebc45")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7f606e69-d052-5fd3-8b2e-29c99d98d733")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 49.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "82442cc2-f86a-5a34-9fa1-8afb179fe644")
+	)
+	(wire
+		(pts
+			(xy 218.44 109.22) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853e09e4-9311-4e0e-8289-d5198fb1c88a")
+	)
+	(wire
+		(pts
+			(xy 203.2 57.15) (xy 201.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "854cdad6-7916-5ac2-bed7-2d17fa1710ac")
+	)
+	(wire
+		(pts
+			(xy 203.2 53.34) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8694fb53-5fd0-5ec1-8854-41d84ce5bbba")
+	)
+	(wire
+		(pts
+			(xy 200.66 124.46) (xy 199.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "88ee5372-8d06-568e-a5d5-674e17150dbc")
+	)
+	(wire
+		(pts
+			(xy 194.31 83.82) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "94a2d7a4-e6d6-5ae7-b311-63912df35619")
+	)
+	(wire
+		(pts
+			(xy 275.59 27.94) (xy 276.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9592beaf-4626-578c-a2fc-294cb3b154f1")
+	)
+	(wire
+		(pts
+			(xy 262.89 68.58) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "99e15b4e-f7a4-5e26-b156-a407049a638f")
+	)
+	(wire
+		(pts
+			(xy 97.79 53.34) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9ab709-a485-4b06-8f28-1f97ca829af3")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07e98f2-a54e-46ab-a1ce-18525e8417fc")
+	)
+	(wire
+		(pts
+			(xy 106.68 109.22) (xy 107.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a861e82d-8dc4-5295-acce-51a544ae6089")
+	)
+	(wire
+		(pts
+			(xy 128.27 48.26) (xy 130.81 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d65cd8-aed2-48b4-8212-c425237c0362")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ac0da311-290c-5880-88b3-393a3a67538a")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 95.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0924b6e-e6b8-4c55-99c7-9bdbac1650ea")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b5ca5e12-b39e-52bc-97f9-275385a2172c")
+	)
+	(wire
+		(pts
+			(xy 203.2 30.48) (xy 201.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b7376dbc-f4f5-558a-9f17-2c67235c7d8d")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "bdb04e77-dc84-5ad9-820b-6e1f9a233b1d")
+	)
+	(wire
+		(pts
+			(xy 203.2 45.72) (xy 201.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c319f0eb-e4e8-5e3d-9fc5-42ec20aec7ee")
+	)
+	(wire
+		(pts
+			(xy 106.68 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c9723107-b4f9-5cea-82d2-1d1028c51fbc")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d1f59e58-c69c-50b2-95b1-238b70731214")
+	)
+	(wire
+		(pts
+			(xy 97.79 45.72) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51acaaf-68cc-48eb-8517-2d59ce12a76a")
+	)
+	(wire
+		(pts
+			(xy 162.56 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d876024b-1edb-5e91-9ec0-7ce404ebedab")
+	)
+	(wire
+		(pts
+			(xy 17.78 153.67) (xy 16.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d9c09272-9e08-5f08-8ad8-891c8825521d")
+	)
+	(wire
+		(pts
+			(xy 262.89 27.94) (xy 261.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "dfce3094-6b5b-52e6-96bc-82f1d9e6591f")
+	)
+	(wire
+		(pts
+			(xy 163.83 124.46) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e6bfadba-5c85-5418-b8a4-485fcba1ae95")
+	)
+	(wire
+		(pts
+			(xy 203.2 49.53) (xy 201.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e6d80681-cd6c-5d90-9e41-4f40f5797f08")
+	)
+	(wire
+		(pts
+			(xy 254 109.22) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e7f1bbe3-e939-53ec-aded-8523d8bfd3c7")
+	)
+	(wire
+		(pts
+			(xy 128.27 43.18) (xy 130.81 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99f0e31-7515-40e7-9874-51308aaca49c")
+	)
+	(wire
+		(pts
+			(xy 181.61 109.22) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1f47cf-97cb-4cf7-af58-2df5f306f466")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 130.81 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed761298-a658-4d65-8874-c360eadf2a06")
+	)
+	(wire
+		(pts
+			(xy 275.59 68.58) (xy 276.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f11ee928-6182-566c-8299-0ac61dc39273")
+	)
+	(wire
+		(pts
+			(xy 97.79 40.64) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1472b0a-0457-4e07-bf02-32d58a3a0017")
+	)
+	(wire
+		(pts
+			(xy 128.27 45.72) (xy 130.81 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f159671c-f720-4eea-b5e6-0d904a9a0e79")
+	)
+	(wire
+		(pts
+			(xy 149.86 33.02) (xy 148.59 33.02)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f5047540-ffab-5931-8418-906f837662e6")
+	)
+	(wire
+		(pts
+			(xy 200.66 109.22) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f518b925-7e9c-5897-bc43-1e444ec29e53")
+	)
+	(wire
+		(pts
+			(xy 107.95 109.22) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60d087c-d851-4a52-a7f5-17b7a03fc2ad")
+	)
+	(wire
+		(pts
+			(xy 30.48 80.01) (xy 29.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f9c4ad69-334f-52fb-ac7d-2b8d604d7f7a")
+	)
+	(wire
+		(pts
+			(xy 180.34 109.22) (xy 181.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fbd316b4-26ab-58ba-9878-ac0873f5be99")
+	)
+	(wire
+		(pts
+			(xy 237.49 109.22) (xy 236.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fc49a0ea-0b75-51b9-bc10-24f33b888c26")
+	)
+	(wire
+		(pts
+			(xy 243.84 83.82) (xy 242.57 83.82)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fd5bb29b-874e-56f5-b829-b7f154b68344")
+	)
+	(wire
+		(pts
+			(xy 29.21 99.06) (xy 27.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "feaf53bc-8849-5fdf-84a7-d2f64f030e65")
+	)
+	(label "GND"
+		(at 162.56 124.46 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "021cffae-72ff-55e6-ba57-67e8d3a4df2a")
+	)
+	(label "+3V3"
+		(at 148.59 53.34 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0375343d-f3ad-5f3e-b001-062b58fa252e")
+	)
+	(label "I2C_SCL"
+		(at 261.62 83.82 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "130aaf55-2af5-592e-8540-da3c68b68a54")
+	)
+	(label "+3V3"
+		(at 130.81 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "13285754-5b8c-4ae8-9065-6213c64e92ab")
+	)
+	(label "CAL"
+		(at 27.94 99.06 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a6e857e-52ed-56b6-800b-c5658852f1ce")
+	)
+	(label "I2C_SDA"
+		(at 95.25 48.26 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1aedee54-0bcf-420d-beeb-b2af27c074a4")
+	)
+	(label "GND"
+		(at 276.86 27.94 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cf602d1-cfe9-5e28-aae9-2ab1ba4ccb5d")
+	)
+	(label "GND"
+		(at 199.39 124.46 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f9cb9ff-2881-5a65-957a-45b1afa20b6b")
+	)
+	(label "LED5"
+		(at 130.81 48.26 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2277e3e3-5f58-4b90-8dae-71d8ab94d92f")
+	)
+	(label "CAL"
+		(at 48.26 80.01 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "258afc05-aa8d-5ac9-9f7d-575232b8f273")
+	)
+	(label "LED5"
+		(at 236.22 109.22 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "27a74a2a-ca2f-5417-adab-096131791561")
+	)
+	(label "LED4_A"
+		(at 218.44 109.22 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ce4046c-309d-58b9-a438-1db91199e22f")
+	)
+	(label "LED1"
+		(at 95.25 38.1 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d49b877-d350-4ac6-b717-2360cfa12fe4")
+	)
+	(label "LED3"
+		(at 162.56 109.22 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "33121af9-ef64-5c89-aa5e-6e80e654eae4")
+	)
+	(label "LED2_A"
+		(at 144.78 109.22 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3693e18a-9462-50bd-9174-914f3c475401")
+	)
+	(label "LED4"
+		(at 199.39 109.22 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e69ba43-c756-5f6b-9992-6adba93d7a07")
+	)
+	(label "+3V3"
+		(at 29.21 80.01 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "427eb833-06c7-54dc-a0ee-4233260e2e7a")
+	)
+	(label "+3V3"
+		(at 193.04 83.82 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "44343fc4-aae1-579e-b106-2d9f40ad1f07")
+	)
+	(label "+3V3"
+		(at 148.59 33.02 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "454699a0-d61d-545f-a3fa-0f28f32fbb34")
+	)
+	(label "GND"
+		(at 130.81 40.64 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f210c8f-a965-4b51-b233-b53e5687c5b2")
+	)
+	(label "LED4"
+		(at 130.81 50.8 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f3b28de-5d3c-4f8a-af1c-c833579fb5aa")
+	)
+	(label "GND"
+		(at 163.83 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fb3fb8c-48c1-5677-a089-302197f92c54")
+	)
+	(label "LED3"
+		(at 95.25 45.72 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5058712a-6f28-4a0b-a2e7-ff947e1968a6")
+	)
+	(label "I2C_SCL"
+		(at 95.25 50.8 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5342164d-776d-4536-b2e5-3d40c933d231")
+	)
+	(label "UART_RX"
+		(at 93.98 85.09 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "562f65e6-1e3d-5875-9d0d-600ba42e06fe")
+	)
+	(label "CAL"
+		(at 102.87 153.67 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "59f99ab9-9f35-5f30-8e73-8fcf53c33243")
+	)
+	(label "GND"
+		(at 93.98 77.47 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "63996911-3dbf-5b30-9d01-5814e94489af")
+	)
+	(label "+3V3"
+		(at 201.93 53.34 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "64dfcedf-0785-51dd-b23d-2b031c346d45")
+	)
+	(label "GND"
+		(at 49.53 104.14 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b0c34ae-3c2b-58b0-8e78-e7b81afa417b")
+	)
+	(label "CAL"
+		(at 95.25 43.18 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d007e40-ebf7-40a6-8aa0-30bf96a8f62d")
+	)
+	(label "ACC_INT1"
+		(at 201.93 57.15 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "73b229ba-2318-5b24-977a-87ee6b704330")
+	)
+	(label "I2C_SDA"
+		(at 201.93 45.72 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "78759664-d73c-5ba6-9cde-bbc1a89436b4")
+	)
+	(label "+3V3"
+		(at 201.93 30.48 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f5c38cd-6914-5477-9539-deac881c346a")
+	)
+	(label "LED1"
+		(at 88.9 109.22 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "804892aa-2917-5e91-a341-f23935f70707")
+	)
+	(label "LED2"
+		(at 95.25 40.64 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "8135839e-4989-46ca-a351-30fbfc1c7b5e")
+	)
+	(label "LED2"
+		(at 125.73 109.22 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "868511d4-8bdf-583b-b7c7-84d1645a778c")
+	)
+	(label "CAL"
+		(at 49.53 99.06 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "86fba823-26ee-559c-919a-a575567344e3")
+	)
+	(label "GND"
+		(at 236.22 124.46 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a0dc117-852a-5103-945d-76f4e4efdf35")
+	)
+	(label "GND"
+		(at 27.94 104.14 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bc0fa14-f742-567b-ad6c-37aa5fe18bca")
+	)
+	(label "GND"
+		(at 66.04 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9290d44e-6d8c-4d10-81a6-62b960d658e1")
+	)
+	(label "+3V3"
+		(at 16.51 153.67 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "946ba91b-6cd2-5345-885a-8d06682a2b41")
+	)
+	(label "GND"
+		(at 201.93 49.53 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "962ecaf0-6a7d-5c31-9e9f-1c5e10b0cd76")
+	)
+	(label "GND"
+		(at 276.86 68.58 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a07192a1-577b-5f82-b263-b6936d4e9550")
+	)
+	(label "I2C_SCL"
+		(at 201.93 41.91 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1801a15-5c24-5ba8-8d81-59b06bccd46a")
+	)
+	(label "UART_TX"
+		(at 95.25 53.34 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6fcbed2-4cb2-47f5-964e-4dfdfebd1ae8")
+	)
+	(label "UART_TX"
+		(at 93.98 81.28 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "b68495f6-bafc-5aa5-ba99-6e437de4da44")
+	)
+	(label "GND"
+		(at 276.86 48.26 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b696595f-2529-57d9-8016-87843c76e3d0")
+	)
+	(label "LED3_A"
+		(at 181.61 109.22 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "be62ed49-fa40-53ac-95d4-19b354046d4c")
+	)
+	(label "LED1_A"
+		(at 107.95 109.22 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c49d0c3a-81f7-5429-83b7-d6f65eafa27b")
+	)
+	(label "UART_RX"
+		(at 130.81 53.34 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c49f283f-90a1-4ea5-b300-68b8bb6435ad")
+	)
+	(label "ACC_INT1"
+		(at 232.41 153.67 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7fb2b1b-bd99-50ca-83b8-596ff6a82637")
+	)
+	(label "I2C_SDA"
+		(at 146.05 153.67 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf9d26af-282e-58dc-914b-e12280b6e53c")
+	)
+	(label "I2C_SCL"
+		(at 189.23 153.67 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3d511d4-7522-5042-800c-78bc171765aa")
+	)
+	(label "LED5_A"
+		(at 255.27 109.22 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4d8c0a3-a359-540b-94ab-8f95d7350e72")
+	)
+	(label "I2C_SDA"
+		(at 212.09 83.82 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd754dd7-b4e6-5e60-aad9-620567577313")
+	)
+	(label "GND"
+		(at 88.9 124.46 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e10ff133-b496-5a90-8485-0e265920edcd")
+	)
+	(label "GND"
+		(at 201.93 38.1 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3c9c0a0-8609-523e-8d00-1ced14e60998")
+	)
+	(label "+3V3"
+		(at 261.62 48.26 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e407a836-86cd-59d4-be5b-6b39e71e4e8b")
+	)
+	(label "+3V3"
+		(at 242.57 83.82 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4b22a6b-7a64-5f5c-bfd1-372abffbcc68")
+	)
+	(label "GND"
+		(at 125.73 124.46 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e54a8dab-614a-51fe-ae3d-b05e54ac4ca4")
+	)
+	(label "ACC_INT1"
+		(at 130.81 45.72 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5aa6a14-6cab-4da5-82f9-fde92477ee30")
+	)
+	(label "GND"
+		(at 163.83 53.34 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee1a3901-06c8-5a4a-8d50-8d4fd36a674c")
+	)
+	(label "+3V3"
+		(at 261.62 68.58 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "f970d8f4-f3fd-551e-ad73-9b265cbdc839")
+	)
+	(label "GND"
+		(at 59.69 153.67 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9c56f58-5202-5217-ba8a-cc002550a59b")
+	)
+	(label "+3V3"
+		(at 261.62 27.94 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb9e4ede-a5a8-531f-88da-05492b4ea714")
+	)
+	(symbol
+		(lib_id "Vibra:XIAO_ESP32S3_Carrier")
+		(at 113.03 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00877e9a-3b4e-50e1-b55b-de9c1ca282cf")
+		(property "Reference" "U1"
+			(at 113.03 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "XIAO ESP32S3"
+			(at 113.03 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:XIAO_ESP32S3_Sockets"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Seeed XIAO ESP32S3 sur 2 embases 1x7; USB-C du XIAO; 3V3 sortie"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "113991114"
+			(at 113.03 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ead987a4-57f6-4543-93b2-b46e0a10a427")
+		)
+		(pin "2"
+			(uuid "03345bc7-ab54-4e9d-b648-bd0aa79cfaca")
+		)
+		(pin "3"
+			(uuid "f750d7f4-287a-418e-adf2-ede39ea67cc4")
+		)
+		(pin "4"
+			(uuid "669c54e0-f8e2-4c83-838a-e10f4f02c6ef")
+		)
+		(pin "5"
+			(uuid "0bf59deb-d5c1-48f7-b922-3708d0c05719")
+		)
+		(pin "6"
+			(uuid "88f9fa04-8129-4aad-981e-bf1fc6ce4451")
+		)
+		(pin "7"
+			(uuid "4fde9531-71f2-4c8c-bc2e-96c8da7304a9")
+		)
+		(pin "8"
+			(uuid "d7fbca7d-af2d-4921-a3bf-521547c6db10")
+		)
+		(pin "9"
+			(uuid "6c5ebb97-0815-4225-aee3-d7a298875b3b")
+		)
+		(pin "10"
+			(uuid "9ecd6c4f-7e4b-4f71-92d8-041718e6f78e")
+		)
+		(pin "11"
+			(uuid "773e2769-43fc-4525-8c2e-2c3d0a1fa48b")
+		)
+		(pin "12"
+			(uuid "44b33626-8957-4a07-b4c7-c25b6d1bbaf1")
+		)
+		(pin "13"
+			(uuid "55a68f93-adb0-4704-bafb-3ad26c32742f")
+		)
+		(pin "14"
+			(uuid "b74814f0-34a4-4def-b5c1-0783ca57ef29")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:LIS3DH_BREAKOUT")
+		(at 220.98 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02933eed-a754-533f-ad56-56cb47d4a68b")
+		(property "Reference" "J3"
+			(at 220.98 26.035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LIS3DH_2809_ORIGINAL_SOCKET"
+			(at 220.98 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:Socket_1x08_2.54mm_H8.5"
+			(at 220.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8.5 mm high female socket for Adafruit 2809 ORIGINAL 1x8 only; not STEMMA QT"
+			(at 220.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300811821"
+			(at 220.98 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0fedcd5-4fbc-5335-bb81-ef065698b3cc")
+		)
+		(pin "2"
+			(uuid "50979ac4-704f-5854-ba29-4552ea5ac7eb")
+		)
+		(pin "3"
+			(uuid "89d7c72f-f83d-5c1d-98c1-e1719936ebed")
+		)
+		(pin "4"
+			(uuid "5cab1651-4f47-51e4-980d-4917231c3d3d")
+		)
+		(pin "5"
+			(uuid "23f964e5-af93-575b-9fe6-ef408547baad")
+		)
+		(pin "6"
+			(uuid "e579cbac-b726-511d-bde6-0baf354a40f8")
+		)
+		(pin "7"
+			(uuid "c8b409ae-cb96-5341-b5c7-a3b1afedfb0d")
+		)
+		(pin "8"
+			(uuid "ad1ec586-729c-58ff-b1f7-77f9d5adbf80")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:C")
+		(at 156.21 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12a85f52-b430-52df-9e77-d5addf009107")
+		(property "Reference" "C5"
+			(at 156.21 28.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 156.21 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 156.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESP32 local bulk"
+			(at 156.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR61C106KE15L"
+			(at 156.21 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd988ada-3fd8-5f61-891e-372e5b8af582")
+		)
+		(pin "2"
+			(uuid "7dc9755b-85c6-5ff5-8829-1f4199e6522c")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:MountingHole")
+		(at 139.7 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1848cbbd-6e43-4a10-8242-fe06b109c532")
+		(property "Reference" "H6"
+			(at 139.7 183.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LIS3DH mount 2.5mm"
+			(at 139.7 192.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:MountingHole_2.5mm"
+			(at 139.7 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Original Adafruit breakout mounting hole; use M2 hardware"
+			(at 139.7 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 139.7 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:TestPoint")
+		(at 111.76 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26c2f411-c4d3-5f57-b77b-6cd0a8bb91c3")
+		(property "Reference" "TP6"
+			(at 111.76 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "CAL"
+			(at 111.76 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+			(at 111.76 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Exposed copper test point: CAL"
+			(at 111.76 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 111.76 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14e0ac95-7452-5b9c-8826-cf55a22c5a0d")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:Conn_01x03")
+		(at 104.14 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27430329-4984-519b-a93e-67a63bdc851f")
+		(property "Reference" "J2"
+			(at 104.14 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "UART"
+			(at 104.14 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:UART_1x03_2.54mm_Drill1.10"
+			(at 104.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3-pin UART header, no power pin"
+			(at 104.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "61300311121"
+			(at 104.14 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e91f2cd-b149-503a-8cb0-e31d8fbd8c80")
+		)
+		(pin "2"
+			(uuid "2bc6f49b-d5a1-5838-bb83-51f0b4bab809")
+		)
+		(pin "3"
+			(uuid "51ac42c7-a896-5399-8ffe-10c3eedad659")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:LED")
+		(at 208.28 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e548d67-52ec-5fb0-8673-2e91dd5f8505")
+		(property "Reference" "D4"
+			(at 208.28 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 208.28 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 208.28 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red vibration level LED 4"
+			(at 208.28 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170KRKT"
+			(at 208.28 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d76e7bf-4fc0-5200-b8b5-83fcaaedca90")
+		)
+		(pin "2"
+			(uuid "70235ad1-b8b4-55cd-8c46-6755012a3a8c")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:MountingHole")
+		(at 78.74 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "338eac45-c7c9-51e6-9935-ae955fcd6980")
+		(property "Reference" "H3"
+			(at 78.74 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M3 NPTH"
+			(at 78.74 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+			(at 78.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.2 mm non-plated mounting hole"
+			(at 78.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 78.74 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:C")
+		(at 269.24 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "422f9648-a4d9-5c72-8ca0-df367aa050f6")
+		(property "Reference" "C9"
+			(at 269.24 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 269.24 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 269.24 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS3DH breakout local bulk"
+			(at 269.24 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR61C106KE15L"
+			(at 269.24 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cc8481b-9cf1-5e28-895b-43572f4a5f7e")
+		)
+		(pin "2"
+			(uuid "cea92eff-66d0-5ed5-aff7-2d1121770f51")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 251.46 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45099948-8bd3-52d9-a177-3365a2ff51ca")
+		(property "Reference" "R8"
+			(at 251.46 80.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 251.46 87.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 251.46 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "I2C SCL pull-up"
+			(at 251.46 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 251.46 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fb79af0-64dc-5589-9220-adbda9cffab3")
+		)
+		(pin "2"
+			(uuid "8bc1a1ad-80f6-5559-98e3-2e7859bc8dde")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:MountingHole")
+		(at 50.8 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4898c880-7087-5042-98b8-df1dacbf6c9c")
+		(property "Reference" "H2"
+			(at 50.8 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M3 NPTH"
+			(at 50.8 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.2 mm non-plated mounting hole"
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:C")
+		(at 156.21 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4db1e540-dc7d-53d7-b866-c4ad280baff6")
+		(property "Reference" "C6"
+			(at 156.21 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 156.21 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 156.21 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESP32 bypass"
+			(at 156.21 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR71C104KA01L"
+			(at 156.21 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33a4466c-572d-5ee3-884c-f700d5d56fe4")
+		)
+		(pin "2"
+			(uuid "d2ce9f81-c247-5473-9ad8-353d2066d1a0")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:C")
+		(at 269.24 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64743bd9-1f42-579c-a3a3-87dafd019af7")
+		(property "Reference" "C8"
+			(at 269.24 23.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 269.24 32.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 269.24 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS3DH breakout connector bypass"
+			(at 269.24 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR71C104KA01L"
+			(at 269.24 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c22a0643-c0c7-506c-8d74-56b1f4abb928")
+		)
+		(pin "2"
+			(uuid "dd3f4c72-b491-5942-be62-7400530be9e2")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:MountingHole")
+		(at 22.86 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ab0ef8e-3c3f-567e-9b85-3bd2d18f7804")
+		(property "Reference" "H1"
+			(at 22.86 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M3 NPTH"
+			(at 22.86 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.2 mm non-plated mounting hole"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 22.86 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:SW_Push")
+		(at 38.1 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a2f2e27-2083-5370-8512-d5a0770ff968")
+		(property "Reference" "SW2"
+			(at 38.1 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "CAL"
+			(at 38.1 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:PTS526SK15SMTR2LFS"
+			(at 38.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Professor reference calibrationibration push button"
+			(at 38.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS526 SK15 SMTR2 LFS"
+			(at 38.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06d2b01f-6b0d-53b6-9a6d-78d1f268cb78")
+		)
+		(pin "2"
+			(uuid "c62cdef0-2c77-5ef7-8fa2-8d6e7a4d4f91")
+		)
+		(pin "3"
+			(uuid "6fded68f-a3b7-5fb1-a216-6a3f419ed4f0")
+		)
+		(pin "4"
+			(uuid "75883484-78c4-5297-b8d6-5a4f962d791b")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:TestPoint")
+		(at 154.94 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8130b2e6-e19f-55fa-9151-14a340910038")
+		(property "Reference" "TP7"
+			(at 154.94 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "I2C_SDA"
+			(at 154.94 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Exposed copper test point: I2C_SDA"
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 154.94 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "695470a0-d3a0-561a-893a-1e19c9ce8c1a")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 201.93 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88094910-0911-5e27-a3c4-7ed76e099f1b")
+		(property "Reference" "R7"
+			(at 201.93 80.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 201.93 87.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "I2C SDA pull-up"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee449130-8748-5eae-b624-495fd52a4993")
+		)
+		(pin "2"
+			(uuid "4dea4449-75d0-577c-849a-83363ce3ed22")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:TestPoint")
+		(at 68.58 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95623653-a426-5c7e-b2ae-0f3d3f9bc49b")
+		(property "Reference" "TP4"
+			(at 68.58 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+			(at 68.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Exposed copper test point: GND"
+			(at 68.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 68.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c39c69a9-7614-5f44-978d-4ba486c9ce5e")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 134.62 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9663ce81-4d91-56f2-87b1-7614488dad09")
+		(property "Reference" "R10"
+			(at 134.62 105.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 134.62 112.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED2 current limit"
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07680RL"
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "429ffcba-f821-54de-923a-9f597ac9ee67")
+		)
+		(pin "2"
+			(uuid "4146e4c7-5a6b-5044-a977-7cb35bd42a27")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:TestPoint")
+		(at 25.4 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99b71b47-e390-589c-8cf1-a77ba518ad77")
+		(property "Reference" "TP3"
+			(at 25.4 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 25.4 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+			(at 25.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Exposed copper test point: +3V3"
+			(at 25.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 25.4 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31e4d010-aae1-58b6-9742-118734c93cc5")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 97.79 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a192eb8e-267b-5736-9bd3-d9129ff018a8")
+		(property "Reference" "R9"
+			(at 97.79 105.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 97.79 112.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.79 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED1 current limit"
+			(at 97.79 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07680RL"
+			(at 97.79 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64269224-6492-5a60-a0df-ef3426cdd121")
+		)
+		(pin "2"
+			(uuid "031b0ab9-8aa2-58a4-931d-a5ef27850fe0")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:TestPoint")
+		(at 198.12 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a36a5a8b-8f24-5766-954c-04e3666e6e3d")
+		(property "Reference" "TP8"
+			(at 198.12 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "I2C_SCL"
+			(at 198.12 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+			(at 198.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Exposed copper test point: I2C_SCL"
+			(at 198.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 198.12 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79a7e88c-89a6-5d5c-8c84-b4cfa32c8f5c")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:MountingHole")
+		(at 139.7 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4c367e9-0144-4491-a8aa-be60dd96a9fd")
+		(property "Reference" "H5"
+			(at 139.7 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LIS3DH mount 2.5mm"
+			(at 139.7 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:MountingHole_2.5mm"
+			(at 139.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Original Adafruit breakout mounting hole; use M2 hardware"
+			(at 139.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 139.7 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 38.1 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a620de81-b38a-5300-a413-52afae19b93a")
+		(property "Reference" "R4"
+			(at 38.1 76.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 38.1 83.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 38.1 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAL pull-up"
+			(at 38.1 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 38.1 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb6a9bda-421b-56b2-a468-dc9671ae79c4")
+		)
+		(pin "2"
+			(uuid "4a2d7e6c-d377-529f-a6cc-e132cd4e33c1")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:LED")
+		(at 245.11 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae12378f-fdf9-5162-904f-07c14ede5fcf")
+		(property "Reference" "D5"
+			(at 245.11 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 245.11 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 245.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red vibration level LED 5"
+			(at 245.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170KRKT"
+			(at 245.11 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "307351d0-2467-5fe2-ae50-40d81276ce15")
+		)
+		(pin "2"
+			(uuid "ece1e9eb-ef94-5ab4-9de1-e369f8c9a27e")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:C")
+		(at 269.24 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae2fb20d-507c-562b-a1fd-876ae593402e")
+		(property "Reference" "C10"
+			(at 269.24 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 269.24 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 269.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIS3DH breakout auxiliary bypass"
+			(at 269.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR71C104KA01L"
+			(at 269.24 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27a9e29e-8c4e-5692-8bd7-62b9392bcd3c")
+		)
+		(pin "2"
+			(uuid "3c7560b6-528c-5cbc-970b-c3691f6ceb4f")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 245.11 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c87b7d54-8a49-54a4-a89b-697951c89283")
+		(property "Reference" "R13"
+			(at 245.11 105.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 245.11 112.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED5 current limit"
+			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07680RL"
+			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c20c9049-f383-5935-b784-c165bbe8b025")
+		)
+		(pin "2"
+			(uuid "9c2f13d4-2e8b-5e00-93a0-e158f2a8cb34")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cae4cabb-aca0-4c0e-91f0-c5ac35aea7c5")
+		(property "Reference" "#FLG02"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f93b403d-2e56-4b01-a685-3e6013333e1f")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:TestPoint")
+		(at 241.3 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d227e565-ee69-5143-8b77-5585f5125976")
+		(property "Reference" "TP9"
+			(at 241.3 149.098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "ACC_INT1"
+			(at 241.3 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:TestPoint_Pad_D1.5mm"
+			(at 241.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Exposed copper test point: ACC_INT1"
+			(at 241.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 241.3 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc654bdb-04f6-5546-979f-29a44af1dad8")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 171.45 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d28f646b-a37e-5f2c-b116-de7e8eee94ad")
+		(property "Reference" "R11"
+			(at 171.45 105.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 171.45 112.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED3 current limit"
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07680RL"
+			(at 171.45 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f878093-5ee1-5fe2-a3c7-13eea3d815f0")
+		)
+		(pin "2"
+			(uuid "3a1b9810-f32e-536b-96a9-68e0672bf314")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:LED")
+		(at 134.62 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d46c7e01-5302-5985-846f-5732d3ae5133")
+		(property "Reference" "D2"
+			(at 134.62 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 134.62 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 134.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red vibration level LED 2"
+			(at 134.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170KRKT"
+			(at 134.62 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a27f0c1-50e3-519f-bc43-1716a7da2331")
+		)
+		(pin "2"
+			(uuid "7106936f-7f77-5de5-bc35-2ba8cbd00494")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:LED")
+		(at 171.45 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0d7205e-bbd1-57da-895e-24ff765074a4")
+		(property "Reference" "D3"
+			(at 171.45 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 171.45 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 171.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red vibration level LED 3"
+			(at 171.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170KRKT"
+			(at 171.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb81bb47-ad04-5cb3-8812-d5525e2ce8b6")
+		)
+		(pin "2"
+			(uuid "d16ef697-100e-5f2d-8b85-3f6a481a50d8")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:R")
+		(at 208.28 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee528fac-00a5-5dc5-b063-798dadc27cb1")
+		(property "Reference" "R12"
+			(at 208.28 105.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 208.28 112.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 208.28 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED4 current limit"
+			(at 208.28 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07680RL"
+			(at 208.28 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e2281cf-b658-5bf2-9700-9d1d30c29809")
+		)
+		(pin "2"
+			(uuid "361947c4-6b9a-57ff-afb5-477492a0b6e3")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:MountingHole")
+		(at 106.68 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5a66319-9119-5ff8-8524-fc96650a96db")
+		(property "Reference" "H4"
+			(at 106.68 170.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "M3 NPTH"
+			(at 106.68 179.832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:MountingHole_3.2mm_M3"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.2 mm non-plated mounting hole"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "N/A"
+			(at 106.68 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Vibra:LED")
+		(at 97.79 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f716d39d-2e39-597b-a93d-3dc89a5c87a0")
+		(property "Reference" "D1"
+			(at 97.79 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 97.79 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red vibration level LED 1"
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170KRKT"
+			(at 97.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cbd9a24-b833-54a8-b2fe-9da818f71962")
+		)
+		(pin "2"
+			(uuid "4d919ef5-ab46-55f1-830a-905127baa1db")
+		)
+		(instances
+			(project "Vibra_V1"
+				(path "/3be29066-761c-5643-ab36-a2e4a9b92d0c"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

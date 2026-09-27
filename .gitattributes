@@ -1,0 +1,17 @@
+* text=auto
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_dru text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.pdf binary
+*.png binary
+*.step binary
+*.stp binary
+
+# Preserve whitespace in generated and upstream CAD assets
+*.svg -whitespace
+*.brd -whitespace

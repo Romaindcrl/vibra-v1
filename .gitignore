@@ -1,0 +1,23 @@
+# KiCad user preferences, locks, automatic backups
+*.kicad_prl
+*.lck
+~*
+*-backups/
+*.bak
+*.bck
+_autosave-*
+fp-info-cache
+
+# Local tools and operating system
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+
+# Regenerated checks and temporary exports
+build/
+*.log

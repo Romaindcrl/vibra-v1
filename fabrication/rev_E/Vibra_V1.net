@@ -1,0 +1,2743 @@
+(export
+	(version "E")
+	(design
+		(source "Vibra_V1.kicad_sch")
+		(date "2026-09-27T01:24:36")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "VIBRA V1 - Detecteur de vibrations")
+				(company "Prototype pedagogique")
+				(rev "E-HS")
+				(date "2026-09-27")
+				(source "Vibra_V1.kicad_sch")
+				(comment
+					(number "1")
+					(value "Alim. USB-C XIAO ; porteuse 3V3")
+				)
+				(comment
+					(number "2")
+					(value "48 x 38 mm / 2 couches / FR4 1.6 mm")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C5")
+			(value "10uF")
+			(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "ESP32 local bulk")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61C106KE15L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ESP32 local bulk")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "C")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61C106KE15L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "12a85f52-b430-52df-9e77-d5addf009107")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100nF")
+			(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "ESP32 bypass")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C104KA01L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "ESP32 bypass")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "C")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C104KA01L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4db1e540-dc7d-53d7-b866-c4ad280baff6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "100nF")
+			(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "LIS3DH breakout connector bypass")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C104KA01L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LIS3DH breakout connector bypass")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "C")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C104KA01L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64743bd9-1f42-579c-a3a3-87dafd019af7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "10uF")
+			(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "LIS3DH breakout local bulk")
+			(fields
+				(field
+					(name "MPN") "GRM21BR61C106KE15L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LIS3DH breakout local bulk")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "C")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR61C106KE15L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "422f9648-a4d9-5c72-8ca0-df367aa050f6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100nF")
+			(footprint "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+			(description "LIS3DH breakout auxiliary bypass")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C104KA01L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LIS3DH breakout auxiliary bypass")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "C")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C104KA01L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae2fb20d-507c-562b-a1fd-876ae593402e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "LTST-C170KRKT")
+			(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Red vibration level LED 1")
+			(fields
+				(field
+					(name "MPN") "LTST-C170KRKT")
+				(field
+					(name "Footprint") "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Red vibration level LED 1")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "LED")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "LTST-C170KRKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f716d39d-2e39-597b-a93d-3dc89a5c87a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "LTST-C170KRKT")
+			(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Red vibration level LED 2")
+			(fields
+				(field
+					(name "MPN") "LTST-C170KRKT")
+				(field
+					(name "Footprint") "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Red vibration level LED 2")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "LED")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "LTST-C170KRKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d46c7e01-5302-5985-846f-5732d3ae5133")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D3")
+			(value "LTST-C170KRKT")
+			(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Red vibration level LED 3")
+			(fields
+				(field
+					(name "MPN") "LTST-C170KRKT")
+				(field
+					(name "Footprint") "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Red vibration level LED 3")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "LED")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "LTST-C170KRKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e0d7205e-bbd1-57da-895e-24ff765074a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D4")
+			(value "LTST-C170KRKT")
+			(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Red vibration level LED 4")
+			(fields
+				(field
+					(name "MPN") "LTST-C170KRKT")
+				(field
+					(name "Footprint") "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Red vibration level LED 4")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "LED")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "LTST-C170KRKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2e548d67-52ec-5fb0-8673-2e91dd5f8505")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "LTST-C170KRKT")
+			(footprint "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+			(description "Red vibration level LED 5")
+			(fields
+				(field
+					(name "MPN") "LTST-C170KRKT")
+				(field
+					(name "Footprint") "Vibra_Reviewed:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Red vibration level LED 5")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "LED")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "LTST-C170KRKT")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ae12378f-fdf9-5162-904f-07c14ede5fcf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "M3 NPTH")
+			(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3")
+			(description "3.2 mm non-plated mounting hole")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.2 mm non-plated mounting hole")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "MountingHole")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6ab0ef8e-3c3f-567e-9b85-3bd2d18f7804")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "M3 NPTH")
+			(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3")
+			(description "3.2 mm non-plated mounting hole")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.2 mm non-plated mounting hole")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "MountingHole")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4898c880-7087-5042-98b8-df1dacbf6c9c")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "M3 NPTH")
+			(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3")
+			(description "3.2 mm non-plated mounting hole")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.2 mm non-plated mounting hole")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "MountingHole")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "338eac45-c7c9-51e6-9935-ae955fcd6980")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "M3 NPTH")
+			(footprint "Vibra_Reviewed:MountingHole_3.2mm_M3")
+			(description "3.2 mm non-plated mounting hole")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:MountingHole_3.2mm_M3")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3.2 mm non-plated mounting hole")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "MountingHole")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f5a66319-9119-5ff8-8524-fc96650a96db")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H5")
+			(value "LIS3DH mount 2.5mm")
+			(footprint "Vibra_Reviewed:MountingHole_2.5mm")
+			(description "Original Adafruit breakout mounting hole; use M2 hardware")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:MountingHole_2.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Original Adafruit breakout mounting hole; use M2 hardware")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "MountingHole")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4c367e9-0144-4491-a8aa-be60dd96a9fd")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H6")
+			(value "LIS3DH mount 2.5mm")
+			(footprint "Vibra_Reviewed:MountingHole_2.5mm")
+			(description "Original Adafruit breakout mounting hole; use M2 hardware")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:MountingHole_2.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Original Adafruit breakout mounting hole; use M2 hardware")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "MountingHole")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1848cbbd-6e43-4a10-8242-fe06b109c532")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "UART")
+			(footprint "Vibra_Reviewed:UART_1x03_2.54mm_Drill1.10")
+			(description "3-pin UART header, no power pin")
+			(fields
+				(field
+					(name "MPN") "61300311121")
+				(field
+					(name "Footprint") "Vibra_Reviewed:UART_1x03_2.54mm_Drill1.10")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "3-pin UART header, no power pin")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "Conn_01x03")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "61300311121")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "27430329-4984-519b-a93e-67a63bdc851f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "LIS3DH_2809_ORIGINAL_SOCKET")
+			(footprint "Vibra_Reviewed:Socket_1x08_2.54mm_H8.5")
+			(description "8.5 mm high female socket for Adafruit 2809 ORIGINAL 1x8 only; not STEMMA QT")
+			(fields
+				(field
+					(name "MPN") "61300811821")
+				(field
+					(name "Footprint") "Vibra_Reviewed:Socket_1x08_2.54mm_H8.5")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "8.5 mm high female socket for Adafruit 2809 ORIGINAL 1x8 only; not STEMMA QT")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "LIS3DH_BREAKOUT")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "61300811821")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "02933eed-a754-533f-ad56-56cb47d4a68b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "10k")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "CAL pull-up")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CAL pull-up")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a620de81-b38a-5300-a413-52afae19b93a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "4.7k")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "I2C SDA pull-up")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-074K7L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C SDA pull-up")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-074K7L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "88094910-0911-5e27-a3c4-7ed76e099f1b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "4.7k")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "I2C SCL pull-up")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-074K7L")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "I2C SCL pull-up")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-074K7L")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "45099948-8bd3-52d9-a177-3365a2ff51ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "680")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "LED1 current limit")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07680RL")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED1 current limit")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07680RL")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a192eb8e-267b-5736-9bd3-d9129ff018a8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "680")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "LED2 current limit")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07680RL")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED2 current limit")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07680RL")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9663ce81-4d91-56f2-87b1-7614488dad09")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "680")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "LED3 current limit")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07680RL")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED3 current limit")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07680RL")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d28f646b-a37e-5f2c-b116-de7e8eee94ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "680")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "LED4 current limit")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07680RL")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED4 current limit")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07680RL")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ee528fac-00a5-5dc5-b063-798dadc27cb1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "680")
+			(footprint "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "LED5 current limit")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07680RL")
+				(field
+					(name "Footprint") "Vibra_Reviewed:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED5 current limit")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "R")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07680RL")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c87b7d54-8a49-54a4-a89b-697951c89283")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "CAL")
+			(footprint "Vibra_Reviewed:PTS526SK15SMTR2LFS")
+			(description "Professor reference calibrationibration push button")
+			(fields
+				(field
+					(name "MPN") "PTS526 SK15 SMTR2 LFS")
+				(field
+					(name "Footprint") "Vibra_Reviewed:PTS526SK15SMTR2LFS")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Professor reference calibrationibration push button")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "SW_Push")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "PTS526 SK15 SMTR2 LFS")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7a2f2e27-2083-5370-8512-d5a0770ff968")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "+3V3")
+			(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+			(description "Exposed copper test point: +3V3")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Exposed copper test point: +3V3")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "TestPoint")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "99b71b47-e390-589c-8cf1-a77ba518ad77")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "GND")
+			(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+			(description "Exposed copper test point: GND")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Exposed copper test point: GND")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "TestPoint")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "95623653-a426-5c7e-b2ae-0f3d3f9bc49b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "CAL")
+			(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+			(description "Exposed copper test point: CAL")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Exposed copper test point: CAL")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "TestPoint")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "26c2f411-c4d3-5f57-b77b-6cd0a8bb91c3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "I2C_SDA")
+			(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+			(description "Exposed copper test point: I2C_SDA")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Exposed copper test point: I2C_SDA")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "TestPoint")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8130b2e6-e19f-55fa-9151-14a340910038")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "I2C_SCL")
+			(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+			(description "Exposed copper test point: I2C_SCL")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Exposed copper test point: I2C_SCL")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "TestPoint")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a36a5a8b-8f24-5766-954c-04e3666e6e3d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP9")
+			(value "ACC_INT1")
+			(footprint "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+			(description "Exposed copper test point: ACC_INT1")
+			(fields
+				(field
+					(name "MPN") "N/A")
+				(field
+					(name "Footprint") "Vibra_Reviewed:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Exposed copper test point: ACC_INT1")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "TestPoint")
+				(description "Vibra V1 project symbol")
+			)
+			(property
+				(name "MPN")
+				(value "N/A")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d227e565-ee69-5143-8b77-5585f5125976")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "XIAO ESP32S3")
+			(footprint "Vibra_Reviewed:XIAO_ESP32S3_Sockets")
+			(datasheet "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/")
+			(description "Seeed XIAO ESP32S3 sur 2 embases 1x7; USB-C du XIAO; 3V3 sortie")
+			(fields
+				(field
+					(name "MPN") "113991114")
+				(field
+					(name "Footprint") "Vibra_Reviewed:XIAO_ESP32S3_Sockets")
+				(field
+					(name "Datasheet") "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/")
+				(field
+					(name "Description") "Seeed XIAO ESP32S3 sur 2 embases 1x7; USB-C du XIAO; 3V3 sortie")
+			)
+			(libsource
+				(lib "Vibra")
+				(part "XIAO_ESP32S3_Carrier")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "113991114")
+			)
+			(property
+				(name "Sheetname")
+				(value "Vibra_V1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Vibra_V1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "00877e9a-3b4e-50e1-b55b-de9c1ca282cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Vibra")
+			(part "C")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "Conn_01x03")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "TX")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "RX")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "LED")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "LIS3DH_BREAKOUT")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "LIS3DH_BREAKOUT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN_3V3")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "3Vo_NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "SCL")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "SDO_ADDR_0")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "CS_I2C_HIGH")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "INT")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "MountingHole")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "R")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "SW_Push")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "B1")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "B2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "TestPoint")
+			(description "Vibra V1 project symbol")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TestPoint")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Vibra V1 project symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Vibra")
+			(part "XIAO_ESP32S3_Carrier")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "XIAO ESP32S3")
+				(field
+					(name "Footprint") "Vibra_Reviewed:XIAO_ESP32S3_Sockets")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "D0/GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "D1/GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "D2/GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "D3/GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "D4/GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "D5/GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "D6/GPIO43")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "D7/GPIO44")
+					(type "bidirectional")
+				)
+				(pin
+					(num "9")
+					(name "D8/GPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "D9/GPIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "D10/GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "3V3_OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "VBUS_5V")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Vibra")
+			(uri "${KIPRJMOD}/Vibra.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/+3V3")
+			(class "Power")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "VIN_3V3_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J3")
+				(pin "7")
+				(pinfunction "CS_I2C_HIGH_7")
+				(pintype "input")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "3V3_OUT_12")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "2")
+			(name "/ACC_INT1")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "8")
+				(pinfunction "INT_8")
+				(pintype "output")
+			)
+			(node
+				(ref "TP9")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "D10/GPIO9_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/CAL")
+			(class "Default")
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "A1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "A2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "D2/GPIO3_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/GND")
+			(class "Power")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D3")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D4")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J3")
+				(pin "6")
+				(pinfunction "SDO_ADDR_0_6")
+				(pintype "input")
+			)
+			(node
+				(ref "SW2")
+				(pin "3")
+				(pinfunction "B1_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "4")
+				(pinfunction "B2_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "5")
+			(name "/I2C_SCL")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "4")
+				(pinfunction "SCL_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "D5/GPIO6_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/I2C_SDA")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "5")
+				(pinfunction "SDA_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "D4/GPIO5_5")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/LED1")
+			(class "Default")
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "D0/GPIO1_1")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "8")
+			(name "/LED1_A")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/LED2")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "D1/GPIO2_2")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "10")
+			(name "/LED2_A")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/LED3")
+			(class "Default")
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "D3/GPIO4_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "12")
+			(name "/LED3_A")
+			(class "Default")
+			(node
+				(ref "D3")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/LED4")
+			(class "Default")
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "D8/GPIO7_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "/LED4_A")
+			(class "Default")
+			(node
+				(ref "D4")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "15")
+			(name "/LED5")
+			(class "Default")
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "D9/GPIO8_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "16")
+			(name "/LED5_A")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "17")
+			(name "/UART_RX")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "3")
+				(pinfunction "RX_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "D7/GPIO44_8")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "18")
+			(name "/UART_TX")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "TX_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "D6/GPIO43_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "19")
+			(name "unconnected-(J3-3Vo_NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "3Vo_NC_2")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "20")
+			(name "unconnected-(U1-VBUS_5V-Pad14)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "VBUS_5V_14")
+				(pintype "power_in+no_connect")
+			)
+		)
+	)
+)
